@@ -1,4 +1,4 @@
-from imports import *
+from selenium.webdriver.common.by import By
 
 class Locators:    
     nickname = (By.XPATH, '//div[@class="columnSmall"]')
