@@ -46,7 +46,7 @@ class TestRegistration:
         WebDriverWait(driver, 5).until(expected_conditions.visibility_of_element_located(Locators.email_field))
         driver.find_element(*Locators.email_error)
         driver.find_element(*Locators.password_error)
-        driver.find_element(*Locators.submit_password_error)        
+        driver.find_element(*Locators.submit_password_error)              
                 
         check_error = driver.find_element(*Locators.error).text
 
